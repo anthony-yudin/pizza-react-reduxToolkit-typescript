@@ -1,0 +1,88 @@
+@import '../variables';
+
+.header {
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: $sm) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $sm) {
+      width: auto;
+      margin-bottom: 0;
+    }
+
+    img {
+      margin-right: 15px;
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 24px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      color: #7b7b7b;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__cart {
+    flex: none;
+  }
+
+  &__search {
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  &__search-input {
+    width: 100%;
+    height: 40px;
+    padding: 0 40px;
+    border-radius: 10px;
+    border: 1px solid #a1a1a1;
+  }
+
+  &__search-close {
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    fill: #cdcdcd;
+  }
+
+  &__search-icon {
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    fill: #9d9d9d;
+  }
+}

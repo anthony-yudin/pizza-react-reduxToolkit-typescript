@@ -1,0 +1,40 @@
+[
+  {
+    "id": "0",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/8e108cc5ae8a4d1d9eea08338db7ed14_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/8e108cc5ae8a4d1d9eea08338db7ed14_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/8e108cc5ae8a4d1d9eea08338db7ed14_760x760.png"
+    },
+    "title": "Пицца из половинок",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "0",
+        "title": "Маленькая",
+        "price": 289,
+        "size": "25 см",
+        "weight": "500 г"
+      },
+      {
+        "id": "01",
+        "title": "Средняя",
+        "price": 500,
+        "size": "30 см",
+        "weight": "600 г"
+      },
+      {
+        "id": "02",
+        "title": "Большая",
+        "price": 660,
+        "size": "35 см",
+        "weight": "770 г"
+      }
+    ],
+    "category": 0,
+    "rating": 9,
+    "priceDefault": 289
+  }
+
+
+]
