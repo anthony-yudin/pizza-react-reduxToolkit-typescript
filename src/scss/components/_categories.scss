@@ -1,0 +1,51 @@
+@import '../variables';
+
+.categories {
+  overflow-x: scroll;
+  margin: 0 -22px 20px;
+  display: flex;
+  align-items: flex-end;
+
+  @media screen and (min-width: $sm) {
+    overflow-x: hidden;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    background-color: #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    @include noselect();
+
+    &:first-child,
+    &:last-child {
+      margin-left: 22px;
+
+      @media screen and (min-width: $sm) {
+        margin-left: 0;
+      }
+    }
+
+    &:hover {
+      background-color: darken(#f9f9f9, 2%);
+    }
+
+    &:active {
+      background-color: darken(#f9f9f9, 5%);
+    }
+
+    &_active {
+      background-color: #282828;
+      color: #fff;
+    }
+  }
+}
