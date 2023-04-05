@@ -1,25 +1,23 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { setFilters, filterInitialState } from '../redux/slices/filterSlice';
+import { setFilters, filterInitialState, selectFilter } from '../redux/slices/filterSlice';
 import qs from 'qs';
 
 import Categories from './Categories';
 import Sort, { sortData } from './Sort';
 import Cart from './Cart';
 import SkeletonCart from './SkeletonCart';
+import { fetchProducts, selectProducts } from '../redux/slices/productsSlice';
 
 function Main() {
   const dispatch = useDispatch();
-  const { category, sort, searchInputValueRequest } = useSelector(state => state.filter);
+  const { category, sort, searchInputValueRequest } = useSelector(selectFilter);
+  const { itemsProducts, statusFetchProducts } = useSelector(selectProducts);
   const navigate = useNavigate();
   const isMountCarts = React.useRef(false);
   const isGetRequest = React.useRef(false);
   let filterString = '';
-
-  const [carts, setCarts] = React.useState([]);
-  const [isCartsLoading, setIsCartsLoading] = React.useState(false);
 
   React.useEffect(() => {
     const getRequest = window.location.search;
@@ -31,12 +29,7 @@ function Main() {
         obj.sortBy = sortData.find(item => item.property === (obj.order !== 'asc' ? '-' + obj.sortBy : obj.sortBy));
       }
 
-      dispatch(
-        setFilters({
-          ...obj,
-        })
-      );
-
+      dispatch(setFilters({ ...obj }));
       isGetRequest.current = true;
     }
   }, []);
@@ -68,18 +61,8 @@ function Main() {
       filterObj.order = 'asc';
     }
 
-    filterString = qs.stringify(filterObj);
-
     if (!isGetRequest.current) {
-      setIsCartsLoading(false);
-
-      axios
-        .get(`https://6332a0d9573c03ab0b4ca71c.mockapi.io/items${filterString ? `?${filterString}` : ''}`)
-        .then(res => {
-          setCarts(res.data);
-          setIsCartsLoading(true);
-        })
-        .catch(err => console.log(err));
+      dispatch(fetchProducts(qs.stringify(filterObj)));
     }
 
     isGetRequest.current = false;
@@ -90,7 +73,7 @@ function Main() {
 
     if (
       isMountCarts.current &&
-      (filterObj.order.includes('desc') ||
+      (filterObj.order?.includes('desc') ||
         filterObj.sortBy !== filterInitialState.sort.property.replace('-', '') ||
         Number(filterObj.category) ||
         filterObj.searchInputValueRequest)
@@ -109,12 +92,19 @@ function Main() {
         <Categories />
         <Sort />
       </div>
-      <h2 className="content__title">Все пиццы</h2>
-      <div className="content__items">
-        {isCartsLoading
-          ? carts.map(item => <Cart {...item} key={item.types[0].id} />)
-          : [...new Array(8)].map((_, i) => <SkeletonCart key={i} className="pizza-block" />)}
-      </div>
+
+      {statusFetchProducts === 'error' ? (
+        <h2 className="content__title">Произошла ошибка</h2>
+      ) : (
+        <>
+          <h2 className="content__title">Все пиццы</h2>
+          <div className="content__items">
+            {statusFetchProducts !== 'loading'
+              ? itemsProducts.map(item => <Cart {...item} key={item.types[0].id} />)
+              : [...new Array(8)].map((_, i) => <SkeletonCart key={i} className="pizza-block" />)}
+          </div>
+        </>
+      )}
     </div>
   );
 }

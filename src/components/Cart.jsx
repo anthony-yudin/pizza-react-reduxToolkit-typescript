@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addBasket, removeBasket } from '../redux/slices/basketSlice';
+import { addBasket, removeBasket, selectCurrentItemInBasket } from '../redux/slices/basketSlice';
 
 function Cart({ title, imagesUrl, types, typesDough }) {
   const dispatch = useDispatch();
@@ -10,7 +10,8 @@ function Cart({ title, imagesUrl, types, typesDough }) {
     type: types[0].title,
     typesDough: typesDough[0],
   });
-  const itemBasket = useSelector(state => state.basket.itemsBasket.find(item => item.id === dynamicValueItem.id));
+
+  const itemBasket = useSelector(selectCurrentItemInBasket(dynamicValueItem.id));
 
   function updateSelection(i, item) {
     setDynamicValueItem({

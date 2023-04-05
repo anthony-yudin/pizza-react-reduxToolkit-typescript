@@ -37,16 +37,9 @@ const filterSlice = createSlice({
         state.sort = actionPayload.sortBy;
       }
     },
-    setClearFilters(state) {
-      state.category = 0;
-      state.searchInputValueRequest = '';
-      state.sort = {
-        title: 'Сначала недорогие',
-        property: 'priceDefault',
-      };
-    },
   },
 });
 
-export const { setCategoryId, setSort, setSearch, setFilters, setClearFilters } = filterSlice.actions;
+export const selectFilter = state => state.filter;
+export const { setCategoryId, setSort, setSearch, setFilters } = filterSlice.actions;
 export default filterSlice.reducer;
