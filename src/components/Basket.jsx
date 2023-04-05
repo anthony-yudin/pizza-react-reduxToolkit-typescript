@@ -1,18 +1,16 @@
 import { useDispatch, useSelector } from 'react-redux';
 import React from 'react';
-import { addBasket, removeBasket } from '../redux/slices/basketSlice';
+import { addBasket, removeBasket, selectBasket } from '../redux/slices/basketSlice';
 
 function Basket() {
   const dispatch = useDispatch();
-  const { totalPriceBasket, totalCountBasket } = useSelector(state => state.basket);
-  const itemsBasket = useSelector(state => state.basket.itemsBasket);
+  const { totalPriceBasket, totalCountBasket } = useSelector(selectBasket);
+  const { itemsBasket } = useSelector(selectBasket);
 
   function handleRemoveOneBasket(id) {
     dispatch(
       removeBasket({
-        item: {
-          id,
-        },
+        item: { id },
       })
     );
   }
@@ -20,9 +18,7 @@ function Basket() {
   function handleRemoveItemBasket(id) {
     dispatch(
       removeBasket({
-        item: {
-          id,
-        },
+        item: { id },
         removeAll: true,
       })
     );
