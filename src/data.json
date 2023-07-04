@@ -1,0 +1,249 @@
+[
+  {
+    "id": "1",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/e482d5c7b107456783a0e0100952d05f_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/e482d5c7b107456783a0e0100952d05f_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/e482d5c7b107456783a0e0100952d05f_760x760.png"
+    },
+    "title": "Пицца Жюльен",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "10",
+        "typeName": "Маленькая",
+        "price": 469
+      },
+      {
+        "id": "11",
+        "typeName": "Средняя",
+        "price": 569
+      },
+      {
+        "id": "12",
+        "typeName": "Большая",
+        "price": 669
+      }
+    ],
+    "category": 1,
+    "rating": 10,
+    "priceDefault": 469
+  },
+
+  {
+    "id": "2",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/d7bbbc4c74af442e8b9b3ea2faf3c941_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/d7bbbc4c74af442e8b9b3ea2faf3c941_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/d7bbbc4c74af442e8b9b3ea2faf3c941_760x760.png"
+    },
+    "title": "Пицца от шефа",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "20",
+        "typeName": "Маленькая",
+        "price": 639
+      },
+      {
+        "id": "21",
+        "typeName": "Средняя",
+        "price": 739
+      },
+      {
+        "id": "22",
+        "typeName": "Большая",
+        "price": 839
+      }
+    ],
+    "category": 1,
+    "rating": 6,
+    "priceDefault": 639
+  },
+
+  {
+    "id": "3",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/d9c609f1422247f2b87b6293eb461ff0_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/d9c609f1422247f2b87b6293eb461ff0_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/d9c609f1422247f2b87b6293eb461ff0_760x760.png"
+    },
+    "title": "Сырная",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "30",
+        "typeName": "Маленькая",
+        "price": 289
+      },
+      {
+        "id": "31",
+        "typeName": "Средняя",
+        "price": 389
+      },
+      {
+        "id": "32",
+        "typeName": "Большая",
+        "price": 489
+      }
+    ],
+    "category": 2,
+    "rating": 4,
+    "priceDefault": 289
+  },
+
+  {
+    "id": "4",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_760x760.png"
+    },
+    "title": "Пепперони фреш",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "40",
+        "typeName": "Маленькая",
+        "price": 289
+      },
+      {
+        "id": "41",
+        "typeName": "Средняя",
+        "price": 389
+      },
+      {
+        "id": "42",
+        "typeName": "Большая",
+        "price": 489
+      }
+    ],
+    "category": 1,
+    "rating": 7,
+    "priceDefault": 289
+  },
+
+  {
+    "id": "5",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/ddadb2bd7f2d40459acddbe2f51a2389_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/ddadb2bd7f2d40459acddbe2f51a2389_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/ddadb2bd7f2d40459acddbe2f51a2389_760x760.png"
+    },
+    "title": "Двойной цыпленок",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "50",
+        "typeName": "Маленькая",
+        "price": 369
+      },
+      {
+        "id": "51",
+        "typeName": "Средняя",
+        "price": 469
+      },
+      {
+        "id": "52",
+        "typeName": "Большая",
+        "price": 569
+      }
+    ],
+    "category": 3,
+    "rating": 7,
+    "priceDefault": 369
+  },
+
+  {
+    "id": "6",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/02ca2561953b488993878d1f70e359de_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/02ca2561953b488993878d1f70e359de_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/02ca2561953b488993878d1f70e359de_760x760.png"
+    },
+    "title": "Чоризо фреш",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "60",
+        "typeName": "Маленькая",
+        "price": 289
+      },
+      {
+        "id": "61",
+        "typeName": "Средняя",
+        "price": 389
+      },
+      {
+        "id": "62",
+        "typeName": "Большая",
+        "price": 489
+      }
+    ],
+    "category": 4,
+    "rating": 3,
+    "priceDefault": 289
+  },
+
+  {
+    "id": "7",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/cea570842b754c52b786c231c65bd2e2_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/cea570842b754c52b786c231c65bd2e2_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/cea570842b754c52b786c231c65bd2e2_760x760.png"
+    },
+    "title": "Ветчина и сыр",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "70",
+        "typeName": "Маленькая",
+        "price": 369
+      },
+      {
+        "id": "71",
+        "typeName": "Средняя",
+        "price": 469
+      },
+      {
+        "id": "72",
+        "typeName": "Большая",
+        "price": 669
+      }
+    ],
+    "category": 1,
+    "rating": 9,
+    "priceDefault": 369
+  },
+
+  {
+    "id": "8",
+    "imagesUrl": {
+      "min": "https://cdn.dodostatic.net/static/Img/Products/02ca2561953b488993878d1f70e359de_233x233.png",
+      "middle": "https://cdn.dodostatic.net/static/Img/Products/02ca2561953b488993878d1f70e359de_584x584.png",
+      "max": "https://cdn.dodostatic.net/static/Img/Products/02ca2561953b488993878d1f70e359de_760x760.png"
+    },
+    "title": "Песто",
+    "typesDough": ["тонкое", "традиционное"],
+    "types": [
+      {
+        "id": "80",
+        "typeName": "Маленькая",
+        "price": 469
+      },
+      {
+        "id": "81",
+        "typeName": "Средняя",
+        "price": 669
+      },
+      {
+        "id": "82",
+        "typeName": "Большая",
+        "price": 869
+      }
+    ],
+    "category": 3,
+    "rating": 3,
+    "priceDefault": 469
+  }
+]
