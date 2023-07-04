@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="371ebde3-87cf-4611-83e4-e54981e08bb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/@types/assets.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sort.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/basketSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filterSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/productsSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/products.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pizza.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pizza.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Basket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Basket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFound.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkeletonCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkeletonCart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/cart-empty.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/cart.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/components/cart-item.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/components/pizza-block.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/basketSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/filterSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/productsSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2OuQoLxKUsRuEecedDPzUkrFs7B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../htmlacademy" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="D:\Works\Studies\pizza\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Works\Studies\pizza\src\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="371ebde3-87cf-4611-83e4-e54981e08bb3" name="Changes" comment="" />
+      <created>1682408160623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682408160623</updated>
+      <workItem from="1682408161792" duration="36000" />
+      <workItem from="1682408204232" duration="961000" />
+      <workItem from="1682409179240" duration="160000" />
+      <workItem from="1682409347058" duration="118000" />
+      <workItem from="1682409471336" duration="61000" />
+      <workItem from="1682409537579" duration="10000" />
+      <workItem from="1682409568157" duration="116000" />
+      <workItem from="1682409692290" duration="43000" />
+      <workItem from="1682409740610" duration="60000" />
+      <workItem from="1682409806315" duration="14000" />
+      <workItem from="1682409844844" duration="1256000" />
+      <workItem from="1682484960862" duration="3277000" />
+      <workItem from="1682493998557" duration="1862000" />
+      <workItem from="1682497432058" duration="16113000" />
+      <workItem from="1682658025533" duration="15187000" />
+      <workItem from="1682675775303" duration="4125000" />
+      <workItem from="1687267006150" duration="456000" />
+      <workItem from="1687933033940" duration="57192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
